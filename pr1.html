@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            width: 100%;
+            height: 90px;
+            background-color: #03203C;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            width: 120px;
+            height: 40px;
+            margin: 25px;
+        }
+
+        .list {
+            display: flex;
+            color: white;
+            font-size: 18px;
+            list-style: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .list li {
+            margin: 30px;
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            background-color: #03203C;
+            color: white;
+            font-size: 15px;
+            margin: 25px;
+            border: 2px solid white;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: #03203C;
+            font-size: 17px;
+            font-weight: 700px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <ul class="list">
+            <li><a>HOME</a></li>
+            <li><a>BLOG</a></li>
+            <li><a>PROJECT</a></li>
+            <li><a>CONTACT US</a></li>
+            <li><a>HELP</a></li>
+
+
+        </ul>
+        <button class="more-btn">View More</button>
+    </div>
+</body>
+
+</html>
