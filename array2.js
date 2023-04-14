@@ -26,18 +26,35 @@
 // }
 
 
-function findMax(arr){
-    var max=arr[0];
+// function findMax(arr){
+//     var max=arr[0];
+//     for(var i=1;i<arr.length;i++){
+//         if(arr[i]>max){
+//             max=arr[i];
+
+//     }
+//     // if(arr[1]>max){
+//     //     max=arr[1];
+        
+//     }
+//     return max;
+// }
+// var arr=[45,78,79,55.234,566];
+// console.log(findMax(arr));
+
+
+
+function findMin(arr){
+    var min=arr[0];
     for(var i=1;i<arr.length;i++){
-        if(arr[i]>max){
-            max=arr[i];
+        if(arr[i]<min){
+            min=arr[i];
 
     }
-    // if(arr[1]>max){
-    //     max=arr[1];
+    
         
     }
-    return max;
+    return min;
 }
-var arr=[45,78,79,55.234,566];
-console.log(findMax(arr));
+var arr=[453,78,79,5,234,566];
+console.log(findMin(arr));
